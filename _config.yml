@@ -8,8 +8,9 @@ subtitle: ''
 description: ''
 keywords:
 author: Kai
-language: zh-CHN
-timezone: ''
+email: zhentian.kai@outlook.com
+language: zh-Hans
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -101,3 +102,21 @@ deploy:
   type: git
   repo: https://github.com/ZKai0801/bioitland.io.git
   branch: master
+
+
+# hexo-generator-searchdb
+search:
+  path: search.xml
+  field: post
+  format: html
+
+
+feed:
+    type: atom
+    path: atom.xml
+    limit: 20
+    hub:
+    content:
+    content_limit: 140
+    content_limit_delim: ' '
+    order_by: -date
