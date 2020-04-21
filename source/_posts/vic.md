@@ -1,7 +1,8 @@
 ---
 title: 肿瘤突变分类 -- VIC
 date: 2020-04-10
-tag: ["Bioinformatics", "Cancer"]
+categories: ["Bioinformatics", "Cancer"]
+tags: ['Variant Classification']
 
 ---
 

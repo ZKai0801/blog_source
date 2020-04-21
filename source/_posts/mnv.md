@@ -1,7 +1,8 @@
 ---
 title: Multi-nucleotide variants
 date: 2020-04-18
-tags: ["Bioinformatics", "MNV"]
+categories: ["Bioinformatics"]
+tags: ["MNV", "Phasing"]
 ---
 
 MNV (multi-nucleotide variants) 即多个碱基发生变化的突变，此问题跟 phasing 紧密相关，然而目前为止，绝大数关于 phasing 和 MNV 的研究都是基于人类胚系展开的，在肿瘤方面，仍鲜有文章发表。

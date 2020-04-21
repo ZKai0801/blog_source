@@ -9,7 +9,7 @@ description: ''
 keywords:
 author: Kai
 email: zhentian.kai@outlook.com
-language: zh-Hans
+language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
@@ -87,7 +87,7 @@ pagination_dir: page
 
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
-include:
+include: _imgs/
 exclude:
 ignore:
 

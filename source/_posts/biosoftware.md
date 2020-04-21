@@ -1,7 +1,8 @@
 ---
 title: 生信软件安装
 date: 2019-12-04
-tag: ["IT", "Bioinformatics"]
+categories: ["IT", "Bioinformatics"]
+tags: ['Conda', 'Docker']
 ---
 
 生信中很多软件安装起来都相当麻烦，这里推荐两种途径来解决这一问题：bioconda 以及 docker
