@@ -1,7 +1,7 @@
 ---
 title: 生信软件安装
 date: 2019-12-04
-categories: ["IT", "Bioinformatics"]
+categories: ["IT"]
 tags: ['Conda', 'Docker']
 ---
 

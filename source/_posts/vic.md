@@ -18,9 +18,7 @@ tags: ['Variant Classification']
 
 VIC将指南中提及的 10 大标准按是否可自动化，分为两类，其中可自动打分的标准有 7 个，剩余 3 个标准需要人工审核，当然也提前人工构建好，用参数加入软件让其自动判断。详情如下图：
 
-![vic_flowchart](https://raw.githubusercontent.com/ZKai0801/bioitland.io/master/images/vic_flowchart.png)
-
- 
+![vic_flowchart](https://raw.githubusercontent.com/ZKai0801/bioitland.io/master/imgs/vic_flowchart.png)
 
 ## 1. Therapies (clinical impacts)
 
@@ -34,7 +32,7 @@ C) FDA 和 PG 中对于不同癌肿的研究，或者是进行临床试验的研
 
 D) 临床前研究中的标志物，或者伴随性标志物
 
-![vic_evidence](https://raw.githubusercontent.com/ZKai0801/bioitland.io/master/images/vic_evidence.png)
+![vic_evidence](https://raw.githubusercontent.com/ZKai0801/bioitland.io/master/imgs/vic_evidence.png)
 
 对此，VIC 收集、整合了 [PMKB](https://pmkb.weill.cornell.edu/) 和 [CGI](https://www.cancergenomeinterpreter.org/home) 中的数据，并融入 VIC 自带数据库中。对于属于 A/B 等级的生物标志物 (CGI中列为 guideline 或者 approved，并且癌肿吻合 )，突变将会被认为具有强临床意义，并得分2分；对于 C/D 类生物标志物 (CGI中列为 preclinical、 case report 亦或者 trials，或者收录在PMKB之中)，突变会被认为具有潜在临床意义，得分1分；剩余接得0分。
 
@@ -114,7 +112,7 @@ VIC 整合了两大通路数据库：Cancer Gene Census  [CGC](https://cancer.sa
 
 下图为VIC 评分标准：
 
-![vic_scoring](https://raw.githubusercontent.com/ZKai0801/bioitland.io/master/images/vic_scoring.png)
+![vic_scoring](https://raw.githubusercontent.com/ZKai0801/bioitland.io/master/imgs/vic_scoring.png)
 
 # 结束语
 
@@ -131,18 +129,5 @@ VIC 整合了两大通路数据库：Cancer Gene Census  [CGC](https://cancer.sa
 
 
 VIC原文：https://www.ncbi.nlm.nih.gov/pubmed/31443733
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
