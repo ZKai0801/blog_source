@@ -1,0 +1,3 @@
+[submodule "hexo-theme-ayer"]
+	path = themes/hexo-theme-ayer
+	url = https://github.com/Shen-Yu/hexo-theme-ayer.git
